@@ -5,7 +5,7 @@ html, body {
       padding: 0;
       width: 100%;
       height: 100%;
-      font-family: "Roboto Mono" !important;
+      font-family: "Josefin Sans" !important;
       background: #0f0f0f !important;
       color: #fff !important;
 }
@@ -31,10 +31,11 @@ html, body {
       white-space: nowrap;
       overflow: hidden;
       transform: translateY(-50%);
+      
 }
 
 .anim-typewriter {
-      animation: typewriter 4s steps(40) 1s 1 normal both,
+      animation: typewriter 4s steps(90) 1s 1 normal both,
       blinkTextCussor 500ms steps(40) infinite normal;
 }
 
@@ -239,7 +240,7 @@ nav #menu li a:hover {
 .hero h1 {
       font-weight: lighter;
       text-align: center;
-      letter-spacing: -2px;
+      letter-spacing: 2px;
       line-height: 58px;
 }
 
@@ -605,3 +606,5 @@ textarea:focus {
 .next p {
       text-align: right;
 }
+
+/*  */
