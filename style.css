@@ -567,6 +567,14 @@ h6 {
   background-size: contain;
   
 }
+
+.image4{
+      background: url(https://i.ibb.co/RNTgf89/Whats-App-Image-2021-05-08-at-22-49-54.jpg)no-repeat ;
+      width: 100%;
+  height: 400px;
+  background-size: contain;
+  
+}
 /*--------------- contact form --------------- */
 
 #contact-form {
