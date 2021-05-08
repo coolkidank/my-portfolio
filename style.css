@@ -83,6 +83,7 @@ nav #brand {
       margin-left: 82px;
       line-height: 80px;
       font-weight: bold;
+      font-family: 'Josefin Sans';
 }
 
 nav #brand a {
@@ -286,6 +287,7 @@ nav #menu li a:hover {
 /*--------------- projects section --------------- */
 h6 {
       text-align: center;
+      font-family: 'Josefin Sans', sans-serif;
 }
 
 .vertical {
@@ -319,7 +321,8 @@ h6 {
 }
 
 .project2 {
-      background: url(https://images.unsplash.com/photo-1468870045442-e7d799d8c98a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2448&q=80) no-repeat 50% 50%;
+      /* background: url(https://images.unsplash.com/photo-1468870045442-e7d799d8c98a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2448&q=80) no-repeat 50% 50%; */
+      background: url(https://i.ibb.co/PZ3bTYL/maskd.jpg) no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -336,7 +339,7 @@ h6 {
       bottom: 0;
 }
 
-.project3 {
+/* .project3 {
       background: url(https://images.unsplash.com/photo-1482501157762-56897a411e05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80) no-repeat 50% 50%;
       background-size: cover;
 }
@@ -370,7 +373,7 @@ h6 {
       left: 90%;
       right: 0;
       bottom: 0;
-}
+} */
 
 @media(max-width: 768px) {
       .project {
@@ -499,6 +502,7 @@ h6 {
 
 .hero-content h6 {
       text-align: left;
+      font-family: 'Josefin Sans', sans-serif;
 }
 
 @media(max-width: 768px) {
@@ -514,12 +518,54 @@ h6 {
 .about {
       height: 500px;
       margin-top: 120px;
+      font-family: 'Josefin Sans', sans-serif;
 }
 
-.image {
-      background: url(https://images.unsplash.com/photo-1540885762261-a2ca01f290f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80) no-repeat 50% 70%;
+.imageabout {
+      
+      background: url(https://i.ibb.co/0m7w9vP/Pics-Art-05-08-07-04-03-1.jpg)no-repeat ;
+      width: 100%;
+  height: 400px;
+  background-size: contain;
+
 }
 
+.imagep1 {
+      
+      background: url(https://i.ibb.co/Lv6q8DT/Pics-Art-05-08-05-27-22-1.jpg)no-repeat ;
+      width: 100%;
+  height: 400px;
+  background-size: contain;
+
+}
+
+.imagep2 {
+      
+      background: url(https://i.ibb.co/dPymT52/Pics-Art-05-08-05-31-26-1.jpg)no-repeat ;
+      width: 100%;
+  height: 400px;
+  background-size: contain;
+
+}
+
+.imagep3 {
+      
+      background: url(https://i.ibb.co/0m7w9vP/Pics-Art-05-08-07-04-03-1.jpg)no-repeat ;
+      width: 100%;
+  height: 400px;
+  background-size: contain;
+
+}
+
+
+
+.image3{
+      background: url(https://i.ibb.co/PZ3bTYL/maskd.jpg)no-repeat ;
+      width: 100%;
+  height: 400px;
+  background-size: contain;
+  
+}
 /*--------------- contact form --------------- */
 
 #contact-form {
